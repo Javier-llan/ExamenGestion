@@ -15,8 +15,8 @@
   <p>Suma de dos números</p>
 
   <ul class="nav nav-tabs">
-    <li class="active"><a data-toggle="tab" href="#home">Suma</a></li>
-    <li><a data-toggle="tab" href="#menu1">Suma primos</a></li>
+    <li class="active"><a data-toggle="tab" href="#home">Area del cuadrado</a></li>
+    
   </ul>
 
   <div class="tab-content">
@@ -25,13 +25,13 @@
       <div class="card col-md-12">
         <form id="miFormulario">
             <div class="content col-sm-6">
-            <label class="h5 col-form-label">&nbsp;Número 1:</label>
+            <label class="h5 col-form-label">&nbsp;Lado 1</label>
             <input class="form-control" type="number" id="valor1" autofocus placeholder="Ingrese el valor 1">
             <br>
-                <label class="h5 col-form-label">&nbsp;Número 2:</label>
+                <label class="h5 col-form-label">&nbsp;Lado 2:</label>
                 <input class="form-control" type="number" id="valor2" autofocus placeholder="Ingrese el valor 2">
                 <br>
-            <button class="btn btn-success"onclick="sumar();">Sumar</button>
+            <button class="btn btn-success"onclick="areaCuadrado();">Sumar</button>
             <button class="btn btn-danger"onclick="limpiar();">Version 2</button>
             
             <br>
@@ -42,29 +42,7 @@
         </form>
       </div>
     </div>
-  </div>
-  <div id="menu1" class="tab-pane fade">
-    <p>Version 2.</p>
-    <div class="card col-md-12">
-      <form id="miFormulario">
-          <div class="content col-sm-6">
-          <label class="h5 col-form-label">&nbsp;Número 1:</label>
-          <input class="form-control" type="number" id="numero1" autofocus placeholder="Ingrese el valor 1">
-          <br>
-              <label class="h5 col-form-label">&nbsp;Número 2:</label>
-              <input class="form-control" type="number" id="numero2" autofocus placeholder="Ingrese el valor 2">
-              <br>
-          <button class="btn btn-success"onclick="sumarPrimos();">Sumar</button>
-          <button class="btn btn-danger"onclick="limpiar();">Limpiar</button>
-          
-          <br>
-          <br>
-         
-          <p>El resultado es: <span id="resultado"></span></p>
-          </div>          
-      </form>
-    </div>
-  </div>
+   
 </div>
 <script type="text/javascript" src="js/funciones.js"></script>
 </body>
