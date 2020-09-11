@@ -11,6 +11,27 @@ function areaCuadrado(){
     else{
       document.getElementById('resultado').innerHTML = "Los lados deben ser iguales";
     }
+  }
+  
+function areaRectangulo(){
     
-}
+  var valor1 = parseFloat(document.getElementById('numero1').value);
+  var valor2 = parseFloat(document.getElementById('numero2').value);
+  
+
+  document.getElementById('resultadoResta').innerHTML = valor1*valor2;
+           
+    }
+
+    function areaTriangulo(){
+    
+      var valor1 = parseFloat(document.getElementById('base').value);
+      var valor2 = parseFloat(document.getElementById('altura').value);
+      
+    
+      document.getElementById('resultadoTriangulo').innerHTML = (valor1*valor2)/2;
+               
+        }
+
+
 
